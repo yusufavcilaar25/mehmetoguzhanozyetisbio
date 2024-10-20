@@ -1,0 +1,95 @@
+body{
+    font-family: 'Rubik';
+    height: auto;
+}
+
+nav{
+    background-color: #f8f9fa; /* Arka plan rengi */
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-around; /* Linkler arası boşluğu ayarlar */
+    padding: 10px;
+}
+
+nav ul li a{
+    color: rgb(172, 12, 12);
+    text-decoration: none;
+}
+
+.baslik{
+    display: flex;
+}
+
+.container{
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.oguzhan1{
+    width: 450px;
+    height: 425px;
+}
+
+.oguzhan2{
+    width: 450px;
+    height: 425px;
+    padding-left: 85px;
+}
+
+.oguzhan3{
+    width: 450px;
+    height: 425px;
+    padding-left: 80px;
+}
+
+.yazi1{
+    font-weight: 400;
+    text-align: justify;
+    float: left;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.yazi2{
+    font-weight: 600;
+    text-align: justify;
+    float: left;
+    font-size: 17px;
+    line-height: 30px;
+    padding-right: 10px;;
+}
+
+.instagram{
+    padding-top: 20px;
+}
+
+.youtube{
+    padding-top: 20px;
+}
+
+.tiktok{
+    padding-top: 20px;
+}
+
+footer{
+    background-color: #f8f9fa; /* Arka plan rengi */
+}
+
+footer ul li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+footer .row ul li a{
+    padding-right: 25px;
+    color: rgb(172, 12, 12);
+    text-decoration: none;
+}
+
+footer .container .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
